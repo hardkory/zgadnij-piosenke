@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Music2, Check, X, Trash2, RotateCcw, Play, Loader2, Settings, SkipForward, ChevronLeft } from "lucide-react";
-import { DEFAULT_TRACK_URLS } from "./defaultTracks";
+import { DEFAULT_TRACK_URLS } from "./defaultTracks.js";
 
 // Normalizacja tekstu odgadywanego tytułu, żeby porównanie było odporne na duże litery,
 // polskie znaki i znaki interpunkcyjne. Przykład: "Bóle serca" i "bole serca" są traktowane tak samo.
